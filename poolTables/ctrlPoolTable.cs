@@ -177,7 +177,7 @@ namespace poolTables
             double timeInHours = seconds / 3600f;
             return timeInHours * _hourlyRate;
         }
-        private class TableArgs : EventArgs
+        public class TableArgs : EventArgs
         {
             public int houreRate = 0;
             public int timeInSeconds = 0;
@@ -201,7 +201,7 @@ namespace poolTables
         [
             Category("Pool Table Events")
             ]
-        private event EventHandler<TableArgs> onEndTable;
+        public  event EventHandler<TableArgs> onEndTable;
 
 
         
@@ -213,13 +213,10 @@ namespace poolTables
 
         }
 
-        private void ctrlPoolTable1_onEndTable(object sender, ctrlPoolTable.TableArgs e)
-        {
-            MessageBox.Show($"The Table \"{e.tableName}\" that rented by player \"{e.tablePlayer}\" fees is \"{e.fees.ToString("0.00")}\"$ for \"{e.timeInSeconds}\" seconds");
-        }
+        
         private void ctrlPoolTable_Load(object sender, EventArgs e)
         {
-            onEndTable += ctrlPoolTable1_onEndTable;
+            
             btnEnd.Enabled= false;
         }
     }

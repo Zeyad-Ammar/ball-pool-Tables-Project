@@ -29,75 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.ctrlPoolTable1 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable2 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable3 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable4 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable5 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable6 = new poolTables.ctrlPoolTable();
-            this.ctrlPoolTable7 = new poolTables.ctrlPoolTable();
             this.ctrlPoolTable8 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable7 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable6 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable5 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable4 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable3 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable2 = new poolTables.ctrlPoolTable();
+            this.ctrlPoolTable1 = new poolTables.ctrlPoolTable();
             this.SuspendLayout();
             // 
-            // ctrlPoolTable1
+            // ctrlPoolTable8
             // 
-            this.ctrlPoolTable1.hourlyRate = 10;
-            this.ctrlPoolTable1.Location = new System.Drawing.Point(1, 1);
-            this.ctrlPoolTable1.Name = "ctrlPoolTable1";
-            this.ctrlPoolTable1.playerName = "Player Name";
-            this.ctrlPoolTable1.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable1.TabIndex = 0;
-            this.ctrlPoolTable1.tableName = "Tabel 1";
-            // 
-            // ctrlPoolTable2
-            // 
-            this.ctrlPoolTable2.hourlyRate = 10;
-            this.ctrlPoolTable2.Location = new System.Drawing.Point(333, 1);
-            this.ctrlPoolTable2.Name = "ctrlPoolTable2";
-            this.ctrlPoolTable2.playerName = "player";
-            this.ctrlPoolTable2.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable2.TabIndex = 1;
-            this.ctrlPoolTable2.tableName = "Table 2";
-            // 
-            // ctrlPoolTable3
-            // 
-            this.ctrlPoolTable3.hourlyRate = 10;
-            this.ctrlPoolTable3.Location = new System.Drawing.Point(666, 1);
-            this.ctrlPoolTable3.Name = "ctrlPoolTable3";
-            this.ctrlPoolTable3.playerName = "Player Name";
-            this.ctrlPoolTable3.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable3.TabIndex = 2;
-            this.ctrlPoolTable3.tableName = "Table 3";
-            // 
-            // ctrlPoolTable4
-            // 
-            this.ctrlPoolTable4.hourlyRate = 10;
-            this.ctrlPoolTable4.Location = new System.Drawing.Point(998, 1);
-            this.ctrlPoolTable4.Name = "ctrlPoolTable4";
-            this.ctrlPoolTable4.playerName = "player";
-            this.ctrlPoolTable4.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable4.TabIndex = 3;
-            this.ctrlPoolTable4.tableName = "Table 4";
-            // 
-            // ctrlPoolTable5
-            // 
-            this.ctrlPoolTable5.hourlyRate = 10;
-            this.ctrlPoolTable5.Location = new System.Drawing.Point(1, 344);
-            this.ctrlPoolTable5.Name = "ctrlPoolTable5";
-            this.ctrlPoolTable5.playerName = "player";
-            this.ctrlPoolTable5.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable5.TabIndex = 4;
-            this.ctrlPoolTable5.tableName = "Table 5";
-            // 
-            // ctrlPoolTable6
-            // 
-            this.ctrlPoolTable6.hourlyRate = 10;
-            this.ctrlPoolTable6.Location = new System.Drawing.Point(333, 344);
-            this.ctrlPoolTable6.Name = "ctrlPoolTable6";
-            this.ctrlPoolTable6.playerName = "player";
-            this.ctrlPoolTable6.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable6.TabIndex = 5;
-            this.ctrlPoolTable6.tableName = "Table 6";
+            this.ctrlPoolTable8.hourlyRate = 10;
+            this.ctrlPoolTable8.Location = new System.Drawing.Point(998, 344);
+            this.ctrlPoolTable8.Name = "ctrlPoolTable8";
+            this.ctrlPoolTable8.playerName = "player";
+            this.ctrlPoolTable8.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable8.TabIndex = 7;
+            this.ctrlPoolTable8.tableName = "Table 8";
             // 
             // ctrlPoolTable7
             // 
@@ -109,15 +59,65 @@
             this.ctrlPoolTable7.TabIndex = 6;
             this.ctrlPoolTable7.tableName = "Table 7";
             // 
-            // ctrlPoolTable8
+            // ctrlPoolTable6
             // 
-            this.ctrlPoolTable8.hourlyRate = 10;
-            this.ctrlPoolTable8.Location = new System.Drawing.Point(998, 344);
-            this.ctrlPoolTable8.Name = "ctrlPoolTable8";
-            this.ctrlPoolTable8.playerName = "player";
-            this.ctrlPoolTable8.Size = new System.Drawing.Size(331, 342);
-            this.ctrlPoolTable8.TabIndex = 7;
-            this.ctrlPoolTable8.tableName = "Table 8";
+            this.ctrlPoolTable6.hourlyRate = 10;
+            this.ctrlPoolTable6.Location = new System.Drawing.Point(333, 344);
+            this.ctrlPoolTable6.Name = "ctrlPoolTable6";
+            this.ctrlPoolTable6.playerName = "player";
+            this.ctrlPoolTable6.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable6.TabIndex = 5;
+            this.ctrlPoolTable6.tableName = "Table 6";
+            // 
+            // ctrlPoolTable5
+            // 
+            this.ctrlPoolTable5.hourlyRate = 10;
+            this.ctrlPoolTable5.Location = new System.Drawing.Point(1, 344);
+            this.ctrlPoolTable5.Name = "ctrlPoolTable5";
+            this.ctrlPoolTable5.playerName = "player";
+            this.ctrlPoolTable5.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable5.TabIndex = 4;
+            this.ctrlPoolTable5.tableName = "Table 5";
+            // 
+            // ctrlPoolTable4
+            // 
+            this.ctrlPoolTable4.hourlyRate = 10;
+            this.ctrlPoolTable4.Location = new System.Drawing.Point(998, 1);
+            this.ctrlPoolTable4.Name = "ctrlPoolTable4";
+            this.ctrlPoolTable4.playerName = "player";
+            this.ctrlPoolTable4.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable4.TabIndex = 3;
+            this.ctrlPoolTable4.tableName = "Table 4";
+            // 
+            // ctrlPoolTable3
+            // 
+            this.ctrlPoolTable3.hourlyRate = 10;
+            this.ctrlPoolTable3.Location = new System.Drawing.Point(666, 1);
+            this.ctrlPoolTable3.Name = "ctrlPoolTable3";
+            this.ctrlPoolTable3.playerName = "Player Name";
+            this.ctrlPoolTable3.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable3.TabIndex = 2;
+            this.ctrlPoolTable3.tableName = "Table 3";
+            // 
+            // ctrlPoolTable2
+            // 
+            this.ctrlPoolTable2.hourlyRate = 10;
+            this.ctrlPoolTable2.Location = new System.Drawing.Point(333, 1);
+            this.ctrlPoolTable2.Name = "ctrlPoolTable2";
+            this.ctrlPoolTable2.playerName = "player";
+            this.ctrlPoolTable2.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable2.TabIndex = 1;
+            this.ctrlPoolTable2.tableName = "Table 2";
+            // 
+            // ctrlPoolTable1
+            // 
+            this.ctrlPoolTable1.hourlyRate = 10;
+            this.ctrlPoolTable1.Location = new System.Drawing.Point(1, 1);
+            this.ctrlPoolTable1.Name = "ctrlPoolTable1";
+            this.ctrlPoolTable1.playerName = "Player Name";
+            this.ctrlPoolTable1.Size = new System.Drawing.Size(331, 342);
+            this.ctrlPoolTable1.TabIndex = 0;
+            this.ctrlPoolTable1.tableName = "Table 1";
             // 
             // frmMain
             // 

@@ -17,7 +17,11 @@ namespace poolTables
             InitializeComponent();
         }
 
-        
-       
+
+        private void ctrlPoolTable1_onEndTable(object sender, ctrlPoolTable.TableArgs e)
+        {
+            MessageBox.Show($"The Table \"{e.tableName}\" that rented by player \"{e.tablePlayer}\" fees is \"{e.fees.ToString("0.00")}\"$ for \"{e.timeInSeconds}\" seconds");
+        }
+
     }
 }

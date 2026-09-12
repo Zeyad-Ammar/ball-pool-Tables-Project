@@ -183,6 +183,7 @@
             this.Name = "frmRentDetails";
             this.Text = "frmRentDetails";
             this.Load += new System.EventHandler(this.frmRentDetails_Load);
+            this.Shown += new System.EventHandler(this.frmRentDetails_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.nudHours)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMinutes)).EndInit();
             this.ResumeLayout(false);

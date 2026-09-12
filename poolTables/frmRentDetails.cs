@@ -63,6 +63,7 @@ namespace poolTables
             ckbOpenTime.Checked = true;
             nudHours.Enabled = false;
             nudMinutes.Enabled = false;
+           
         }
 
         private void ckbOpenTime_CheckedChanged(object sender, EventArgs e)
@@ -74,6 +75,11 @@ namespace poolTables
                 nudHours.Value = 0;
                 nudMinutes.Value= 0;
             }
+        }
+
+        private void frmRentDetails_Shown(object sender, EventArgs e)
+        {
+            txtPlayerName.Focus();
         }
     }
 }
