@@ -9,6 +9,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace poolTables
 {
@@ -141,6 +142,8 @@ namespace poolTables
         private void timer_Tick(object sender, EventArgs e)
         {
             seconds++;
+            TimeSpan ts= TimeSpan.FromSeconds(seconds);
+            lbTimer.Text= ts.ToString(@"hh\:mm\:ss");
             if (!isOpenTime)
             {
                 if (seconds == rentSeconds)
@@ -152,21 +155,10 @@ namespace poolTables
                     btnEnd_Click(null,new EventArgs());
                 }
             }
-            update_lbTimer();
+            
         }
 
-        private void update_lbTimer()
-        {
-
-            int seconds = this.seconds;
-            int minutes = seconds / 60;
-            seconds %= 60;
-            int hours = minutes / 60;
-            minutes %= 60;
-
-            lbTimer.Text = hours.ToString("00") + ':' + minutes.ToString("00") + ':' + seconds.ToString("00");
-
-        }
+       
 
         private void resetPoolTable()
         {
