@@ -1,0 +1,12 @@
+D:\VSProjects\poolTables\poolTables\bin\Debug\poolTables.exe.config
+D:\VSProjects\poolTables\poolTables\bin\Debug\poolTables.exe
+D:\VSProjects\poolTables\poolTables\bin\Debug\poolTables.pdb
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.csproj.AssemblyReference.cache
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.ctrlPoolTable.resources
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.frmMain.resources
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.frmRentDetails.resources
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.Properties.Resources.resources
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.csproj.GenerateResource.cache
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.csproj.CoreCompileInputs.cache
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.exe
+D:\VSProjects\poolTables\poolTables\obj\Debug\poolTables.pdb
